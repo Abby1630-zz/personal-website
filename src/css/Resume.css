@@ -1,0 +1,34 @@
+.Container {
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.Item {
+  font-weight: bold;
+}
+
+.SectionHeader {
+  padding-left: 100px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.SectionTimeline {
+  padding: 100px;
+  padding-top: 0;
+  text-align: left;
+}
+
+.SectionSubheading {
+  font-weight: bold;
+  font-size: 16px;
+  flex-grow: 2;
+}
+
+.SectionInformation {
+  font-weight: normal;
+  padding-left: 10px;
+}
