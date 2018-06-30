@@ -11,7 +11,9 @@ class App extends Component {
         <header className="App-header">
           <Name></Name>
         </header>
-        <Resume></Resume>
+        <div className="App-Body">
+          <Resume></Resume>
+        </div>
       </div>
     );
   }

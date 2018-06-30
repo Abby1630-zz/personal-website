@@ -2,7 +2,7 @@
   display: flex;
   flex: auto;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 
@@ -10,22 +10,21 @@
   font-weight: bold;
 }
 
-.SectionHeader {
-  padding-left: 100px;
-  text-align: left;
-  font-weight: bold;
-}
-
 .SectionTimeline {
-  padding: 100px;
-  padding-top: 0;
+  padding-left: 50px;
   text-align: left;
+  padding-right: 50px;
 }
 
 .SectionSubheading {
   font-weight: bold;
   font-size: 16px;
   flex-grow: 2;
+}
+
+.SectionDate {
+  flex-grow: 0;
+
 }
 
 .SectionInformation {
