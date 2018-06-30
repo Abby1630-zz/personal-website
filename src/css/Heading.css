@@ -23,6 +23,7 @@
 }
 
 .SectionSubheading2 {
+  padding-top: 5px;
   font-size: 14px;
   flex-grow: 2;
 }
@@ -32,16 +33,8 @@
 }
 
 .SectionDate2 {
+  padding-top: 5px;
   flex-grow: 0;
   font-size: 14px;
   font-weight: normal;
-}
-
-.SectionInformation {
-  font-weight: normal;
-  padding-left: 10px;
-}
-
-ul {
-  list-style-type: none;
 }
