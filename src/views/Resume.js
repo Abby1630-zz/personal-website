@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Timeline, Divider } from 'antd';
+import { Timeline, Divider, Row, Col } from 'antd';
 import Heading from '../components/Heading';
 import '../css/Resume.css'
 
@@ -11,21 +11,6 @@ class Resume extends Component {
     return (
       <div>
         <div>
-          <Divider orientation='left'><h1>Education</h1></Divider>
-          <p className='SectionTimeline' >
-            <Timeline>
-              <Timeline.Item color='green'>
-                <Heading primaryHeading='true' name='Iowa State University - Ames, Iowa' date='January 2013 – December 2017'> </Heading>
-                <div className='SectionInformation'>M.S. Human Computer Interaction</div>
-                <div className='SectionInformation'>GPA: 3.96</div>
-              </Timeline.Item>
-              <Timeline.Item color='green'>
-                <Heading primaryHeading='true' name='Drake University - Des Moines, Iowa' date='August 2008 – August 2011'> </Heading>
-                <div className='SectionInformation'>BS Computer Science, Mathematics Minor</div>
-                <div className='SectionInformation'>GPA: 3.21 – Major GPA: 3.30</div>
-              </Timeline.Item>
-            </Timeline>
-          </p>
 
           <Divider orientation='left'><h1>Work Experience</h1></Divider>
           <p className='SectionTimeline' >
@@ -86,6 +71,22 @@ class Resume extends Component {
             </Timeline>
           </p>
 
+          <Divider orientation='left'><h1>Education</h1></Divider>
+          <p className='SectionTimeline' >
+            <Timeline>
+              <Timeline.Item color='green'>
+                <Heading primaryHeading='true' name='Iowa State University - Ames, Iowa' date='January 2013 – December 2017'> </Heading>
+                <div className='SectionInformation'>M.S. Human Computer Interaction</div>
+                <div className='SectionInformation'>GPA: 3.96</div>
+              </Timeline.Item>
+              <Timeline.Item color='green'>
+                <Heading primaryHeading='true' name='Drake University - Des Moines, Iowa' date='August 2008 – August 2011'> </Heading>
+                <div className='SectionInformation'>BS Computer Science, Mathematics Minor</div>
+                <div className='SectionInformation'>GPA: 3.21 – Major GPA: 3.30</div>
+              </Timeline.Item>
+            </Timeline>
+          </p>
+
           <Divider orientation='left'><h1>Major Projects</h1></Divider>
           <p className='SectionTimeline' >
             <Timeline>
@@ -120,6 +121,66 @@ class Resume extends Component {
 
             </Timeline>
           </p>
+
+          <Divider orientation='left'><h1>Skills</h1></Divider>
+          <div className='SectionTimeline'>
+            <Row type="flex" justify="space-around">
+              <Col span={12}>
+                <h3 className='SkillHeading'>Coding Languages</h3>
+                <ul className='Skills'>
+                  <li>JavaScript</li>
+                  <li>SalesForce Marketing Cloud</li>
+                  <li>SQL</li>
+                  <li>ReactJS</li>
+                  <li>HTML/CSS/SASS</li>
+                  <li>Drupal</li>
+                  <li>VBScript</li>
+                  <li>Groovy</li>
+                  <li>Python</li>
+                </ul>
+              </Col>
+              <Col span={12}>
+                <h3 className='SkillHeading'>Testing Languages</h3>
+                <ul className='Skills'>
+                  <li>Sinon</li>
+                  <li>Mocha</li>
+                  <li>Enzyme</li>
+                  <li>Selenium</li>
+                  <li>Cucumber</li>
+                  <li>Ranorex</li>
+                  <li>SoapUI</li>
+                  <li>Postman</li>
+                  <li>QTP/UFT</li>
+                </ul>
+              </Col>
+
+            </Row>
+            <Row type="flex">
+              <Col span={12}>
+                <h3 className='SkillHeading'>Soft Skills</h3>
+                <ul className='Skills'>
+                  <li>Problem Solving</li>
+                  <li>Adaptability</li>
+                  <li>Strategic Planning</li>
+                  <li>Data Driven Decision Making</li>
+                  <li>Agile/SCRUM/SAFe/Kanban</li>
+                </ul>
+              </Col>
+              <Col span={12}>
+                <h3 className='SkillHeading'>Tools</h3>
+                <ul className='Skills'>
+                  <li>JIRA</li>
+                  <li>Confluence</li>
+                  <li>Bamboo</li>
+                  <li>Bitbucket/GitHub</li>
+                  <li>Heroku</li>
+                  <li>Axure</li>
+                  <li>Balsamiq</li>
+                  <li>Moqups</li>
+                </ul>
+              </Col>
+            </Row>
+          </div>
 
         </div>
       </div>

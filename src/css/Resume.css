@@ -42,6 +42,14 @@
   padding-left: 10px;
 }
 
+.SkillHeading {
+  text-align: left;
+}
+
+.Skills {
+  text-align: left;
+}
+
 ul {
   list-style-type: none;
 }
