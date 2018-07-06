@@ -85,6 +85,42 @@ class Resume extends Component {
               </Timeline.Item>
             </Timeline>
           </p>
+
+          <Divider orientation='left'><h1>Major Projects</h1></Divider>
+          <p className='SectionTimeline' >
+            <Timeline>
+              <Timeline.Item color='green'>
+                <Heading primaryHeading='true' name='SalesForce Marketing Cloud' date=''> </Heading>
+                <p className='SectionInformation'>
+                  Aided in the architecture and implementation of SalesForce Marketing Cloud at Principal. This required learning about how different areas of the company were going to be using the tool, how the tool was structured, and transforming the data so it was in an intuitive state for non-technical marketers.
+                </p>
+              </Timeline.Item>
+
+              <Timeline.Item color='green'>
+                <Heading primaryHeading='true' name='ExploreIT' date=''> </Heading>
+                <p className='SectionInformation'>
+                  {"Learned ReactJS by developing a responsive application for the Glazer Children's Museum. I designed and developed the solution using ReactJS, Heroku, Google Analytics, and Firebase. A professor at the University of Tampa provided the content and worked as a product owner of this project. This project was designed to be accessed on tablets and phones and can be "}
+                  <a href="https://explore-it.herokuapp.com/">seen here.</a>
+                </p>
+              </Timeline.Item>
+
+              <Timeline.Item color='green'>
+                <Heading primaryHeading='true' name='Principal Rebranding' date=''> </Heading>
+                <p className='SectionInformation'>
+                  Worked with the UX team on protraying our new company voice through the styling of our web properties via our style guide built on top of Bootstrap. This was a quick moving project wiht only 3.5 months for design and implementation.
+                </p>
+              </Timeline.Item>
+
+              <Timeline.Item color='green'>
+                <Heading primaryHeading='true' name='Automation Prioritization' date=''> </Heading>
+                <p className='SectionInformation'>
+                  Worked with leaders in a department my team supported to prioritize and strategize the development of automated tests. Analyzed projects coming down the pipeline that we needed to resource and critical applications with automated testing gaps to develop a plan. I then assigned work to myself and teammates to execute on the plan I developed.
+                </p>
+              </Timeline.Item>
+
+            </Timeline>
+          </p>
+
         </div>
       </div>
     );
