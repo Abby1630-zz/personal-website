@@ -75,6 +75,11 @@ class Resume extends Component {
           <p className='SectionTimeline' >
             <Timeline>
               <Timeline.Item className='tealTimeline'>
+                <Heading primaryHeading='true' name='Peruwayna Spanish School - Lima, Peru' date='January 2018 – February 2018'> </Heading>
+                <div className='SectionInformation'>4 weeks of Spanish immersion classes. 80 hours of small group classes, 20 hours of private lessons.</div>
+                <div className='SectionInformation'>Fluency Level Achieved: A2 - Pre-Intermediate 1</div>
+              </Timeline.Item>
+              <Timeline.Item className='tealTimeline'>
                 <Heading primaryHeading='true' name='Iowa State University - Ames, Iowa' date='January 2013 – December 2017'> </Heading>
                 <div className='SectionInformation'>M.S. Human Computer Interaction</div>
                 <div className='SectionInformation'>GPA: 3.96</div>
@@ -202,6 +207,7 @@ class Resume extends Component {
                   <li>Strategic Planning</li>
                   <li>Data Driven Decision Making</li>
                   <li>Agile/SCRUM/SAFe/Kanban</li>
+                  <li>Spanish - A2 Fluency</li>
                 </ul>
               </Col>
               <Col span={12}>
