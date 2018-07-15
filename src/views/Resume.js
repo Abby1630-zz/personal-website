@@ -12,10 +12,10 @@ class Resume extends Component {
       <div>
         <div>
 
-          <Divider orientation='left'><h1>Work Experience</h1></Divider>
+          <Divider orientation='left' className='pinkHorizontal'><h1>Work Experience</h1></Divider>
           <p className='SectionTimeline' >
             <Timeline>
-              <Timeline.Item color='green'>
+              <Timeline.Item className='purpleTimeline'>
                 <Heading primaryHeading='true' name='Principal Financial Group - Des Moines, Iowa' date='May 2011 – Present'> </Heading>
 
                 <Heading primaryHeading='false' name='Software Developer' date='April 2016 – Present'> </Heading>
@@ -49,7 +49,7 @@ class Resume extends Component {
                   <li className='SectionInformation'>Developed a cross-site scripting tool to test company applications</li>
                 </ul>
               </Timeline.Item>
-              <Timeline.Item color='green'>
+              <Timeline.Item className='purpleTimeline'>
                 <Heading primaryHeading='true' name='Animal Rescue League of Iowa – Des Moines, IA' date='February 2011 – May 2011'> </Heading>
 
                 <Heading primaryHeading='false' name='Database Coordinator Intern' date=''> </Heading>
@@ -58,7 +58,7 @@ class Resume extends Component {
                   <li className='SectionInformation'>Updated records and merged duplicate records</li>
                 </ul>
               </Timeline.Item>
-              <Timeline.Item color='green'>
+              <Timeline.Item className='purpleTimeline'>
                 <Heading primaryHeading='true' name='Drake University – Des Moines, IA' date='August 2010 – May 2011'> </Heading>
 
                 <Heading primaryHeading='false' name='Student Records Analyst Assistant' date=''> </Heading>
@@ -71,15 +71,15 @@ class Resume extends Component {
             </Timeline>
           </p>
 
-          <Divider orientation='left'><h1>Education</h1></Divider>
+          <Divider orientation='left' className='purpleHorizontal'><h1>Education</h1></Divider>
           <p className='SectionTimeline' >
             <Timeline>
-              <Timeline.Item color='green'>
+              <Timeline.Item className='tealTimeline'>
                 <Heading primaryHeading='true' name='Iowa State University - Ames, Iowa' date='January 2013 – December 2017'> </Heading>
                 <div className='SectionInformation'>M.S. Human Computer Interaction</div>
                 <div className='SectionInformation'>GPA: 3.96</div>
               </Timeline.Item>
-              <Timeline.Item color='green'>
+              <Timeline.Item className='tealTimeline'>
                 <Heading primaryHeading='true' name='Drake University - Des Moines, Iowa' date='August 2008 – August 2011'> </Heading>
                 <div className='SectionInformation'>BS Computer Science, Mathematics Minor</div>
                 <div className='SectionInformation'>GPA: 3.21 – Major GPA: 3.30</div>
@@ -87,17 +87,17 @@ class Resume extends Component {
             </Timeline>
           </p>
 
-          <Divider orientation='left'><h1>Major Projects</h1></Divider>
+          <Divider orientation='left' className='tealHorizontal'><h1>Major Projects</h1></Divider>
           <p className='SectionTimeline' >
             <Timeline>
-              <Timeline.Item color='green'>
+              <Timeline.Item className='blueTimeline'>
                 <Heading primaryHeading='true' name='SalesForce Marketing Cloud' date=''> </Heading>
                 <p className='SectionInformation'>
                   Aided in the architecture and implementation of SalesForce Marketing Cloud at Principal. This required learning about how different areas of the company were going to be using the tool, how the tool was structured, and transforming the data so it was in an intuitive state for non-technical marketers.
                 </p>
               </Timeline.Item>
 
-              <Timeline.Item color='green'>
+              <Timeline.Item className='blueTimeline'>
                 <Heading primaryHeading='true' name='ExploreIT' date=''> </Heading>
                 <p className='SectionInformation'>
                   {"Learned ReactJS by developing a responsive application for the Glazer Children's Museum. I designed and developed the solution using ReactJS, Heroku, Google Analytics, and Firebase. A professor at the University of Tampa provided the content and worked as a product owner of this project. This project was designed to be accessed on tablets and phones and can be "}
@@ -105,14 +105,14 @@ class Resume extends Component {
                 </p>
               </Timeline.Item>
 
-              <Timeline.Item color='green'>
+              <Timeline.Item className='blueTimeline'>
                 <Heading primaryHeading='true' name='Principal Rebranding' date=''> </Heading>
                 <p className='SectionInformation'>
                   Worked with the UX team on protraying our new company voice through the styling of our web properties via our style guide built on top of Bootstrap. This was a quick moving project wiht only 3.5 months for design and implementation.
                 </p>
               </Timeline.Item>
 
-              <Timeline.Item color='green'>
+              <Timeline.Item className='blueTimeline'>
                 <Heading primaryHeading='true' name='Automation Prioritization' date=''> </Heading>
                 <p className='SectionInformation'>
                   Worked with leaders in a department my team supported to prioritize and strategize the development of automated tests. Analyzed projects coming down the pipeline that we needed to resource and critical applications with automated testing gaps to develop a plan. I then assigned work to myself and teammates to execute on the plan I developed.
@@ -122,7 +122,45 @@ class Resume extends Component {
             </Timeline>
           </p>
 
-          <Divider orientation='left'><h1>Skills</h1></Divider>
+          <Divider orientation='left' className='blueHorizontal'><h1>Activities</h1></Divider>
+          <p className='SectionTimeline' >
+            <Timeline>
+              <Timeline.Item className='purpleTimeline'>
+                <Heading primaryHeading='true' name='Reboot Iowa' date='January 2016 – Present'> </Heading>
+                <div className='SectionInformation'>Board Member</div>
+              </Timeline.Item>
+              <Timeline.Item className='purpleTimeline'>
+                <Heading primaryHeading='true' name='Principal Financial Group Internship Program' date='September 2015 – Present'> </Heading>
+                <div className='SectionInformation'>Interviewer</div>
+              </Timeline.Item>
+              <Timeline.Item className='purpleTimeline'>
+                <Heading primaryHeading='true' name='Taking the Road Less Traveled Conference' date='May 2011 – Present'> </Heading>
+                <div className='SectionInformation'>Presenter</div>
+              </Timeline.Item>
+              <Timeline.Item className='purpleTimeline'>
+                <Heading primaryHeading='true' name='Principal Financial Group QA Recruiting Committee' date='January 2013 – April 2016'> </Heading>
+                <div className='SectionInformation'>Committee Member</div>
+              </Timeline.Item>
+            </Timeline>
+          </p>
+
+          <Divider orientation='left' className='pinkHorizontal'><h1>Honors & Awards</h1></Divider>
+          <p className='SectionTimeline' >
+            <Timeline>
+              <Timeline.Item className='tealTimeline'>
+                <Heading primaryHeading='true' name='Microsoft Imagine Cup – User Experience Challenge' date='March 2015'> </Heading>
+                <div className='SectionInformation'>World Citizenship Honorable Mention</div>
+              </Timeline.Item>
+              <Timeline.Item className='tealTimeline'>
+                <Heading primaryHeading='true' name='Drake University Presidential Scholarship' date='2008 - 2011'> </Heading>
+              </Timeline.Item>
+              <Timeline.Item className='tealTimeline'>
+                <Heading primaryHeading='true' name='Drake University Dean’s List' date='Fall 2009, Fall 2010, Spring 2011'> </Heading>
+              </Timeline.Item>
+            </Timeline>
+          </p>
+
+          <Divider orientation='left' className='purpleHorizontal'><h1>Skills</h1></Divider>
           <div className='SectionTimeline'>
             <Row type="flex" justify="space-around">
               <Col span={12}>

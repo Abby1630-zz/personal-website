@@ -1,14 +1,20 @@
 @import '~antd/dist/antd.css';
-
+* {
+  font-family: Helvetica !important;
+}
 .App {
   text-align: center;
+  font-family: Palatino;
 }
 
 .App-header {
-  background-color: #222;
+  background-color: white;
+  border-bottom: solid 10px #96C7BC;
+  border-top: solid 5px #E6DAFC;
   height: 150px;
-  padding: 20px;
-  color: white;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  color: #white;
 }
 
 .App-title {
@@ -20,6 +26,8 @@
 }
 
 .App-Body {
+  border-top: solid 3px #607998;
+  border-radius: -4px;
   padding-left: 10%;
   padding-right: 10%;
 }

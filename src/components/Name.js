@@ -4,14 +4,18 @@ import '../css/Name.css'
 class Name extends Component {
   render() {
     const headerStyle = {
-      color: 'white'
+      display:'block',
+      height: '120px'
     }
+
+    const headerDiv = {
+      display: 'flex' ,
+      justifyContent: 'center'
+    }
+
     return (
-      <div>
-          <h1 style={headerStyle}>Abby Huisman</h1>
-        <p>
-          Software Developer | Human Computer Interaction M.S.
-        </p>
+      <div style={headerDiv}>
+        <img style={headerStyle} src={process.env.PUBLIC_URL + '/logoWithTitle.svg'}/>
       </div>
     );
   }
