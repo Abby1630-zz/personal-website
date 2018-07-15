@@ -86,7 +86,7 @@ class Resume extends Component {
               </Timeline.Item>
               <Timeline.Item className='tealTimeline'>
                 <Heading primaryHeading='true' name='Drake University - Des Moines, Iowa' date='August 2008 – August 2011'> </Heading>
-                <div className='SectionInformation'>BS Computer Science, Mathematics Minor</div>
+                <div className='SectionInformation'>B.S. Computer Science, Mathematics Minor</div>
                 <div className='SectionInformation'>GPA: 3.21 – Major GPA: 3.30</div>
               </Timeline.Item>
             </Timeline>
