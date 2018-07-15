@@ -20,15 +20,15 @@ class Resume extends Component {
 
                 <Heading primaryHeading='false' name='Software Developer' date='April 2016 – Present'> </Heading>
                 <ul>
-                  <li className='SectionInformation'>Working collaboratively in an SAFe SCRUM team</li>
-                  <li className='SectionInformation'>Developing and improving applications with Drupal, CSS, Javascript, jQuery, Java</li>
+                  <li className='SectionInformation'>Working collaboratively in a SAFe SCRUM team</li>
+                  <li className='SectionInformation'>Developing and improving applications with Drupal, CSS, JavaScript, jQuery, Java</li>
                   <li className='SectionInformation'>Implementing vendor products like Salesforce Marketing Cloud</li>
                   <li className='SectionInformation'>Supporting the corporate marketing department to enhance user experience for our customers and smarter marketing solutions</li>
                 </ul>
 
                 <Heading primaryHeading='false' name='Quality Control Analyst' date='September 2015 – April 2016'> </Heading>
                 <ul>
-                  <li className='SectionInformation'>Worked collaboratively in an SCRUM Agile team</li>
+                  <li className='SectionInformation'>Worked collaboratively in a SCRUM Agile team</li>
                   <li className='SectionInformation'>Lead the QA effort for the digital style guide during Principal’s rebranding</li>
                   <li className='SectionInformation'>Wrote and executed test plans</li>
                   <li className='SectionInformation'>Used automation testing tools to test more efficiently</li>
@@ -65,7 +65,7 @@ class Resume extends Component {
                 <ul>
                   <li className='SectionInformation'>Collected and compared data from multiple sources</li>
                   <li className='SectionInformation'>Analyzed university data and reported findings to Student Records Analyst</li>
-                  <li className='SectionInformation'>AEdited and rewrote policies and instructional documents</li>
+                  <li className='SectionInformation'>Edited and rewrote policies and instructional documents</li>
                 </ul>
               </Timeline.Item>
             </Timeline>
@@ -91,9 +91,9 @@ class Resume extends Component {
           <p className='SectionTimeline' >
             <Timeline>
               <Timeline.Item className='blueTimeline'>
-                <Heading primaryHeading='true' name='SalesForce Marketing Cloud' date=''> </Heading>
+                <Heading primaryHeading='true' name='Salesforce Marketing Cloud' date=''> </Heading>
                 <p className='SectionInformation'>
-                  Aided in the architecture and implementation of SalesForce Marketing Cloud at Principal. This required learning about how different areas of the company were going to be using the tool, how the tool was structured, and transforming the data so it was in an intuitive state for non-technical marketers.
+                  Aided in the architecture and implementation of Salesforce Marketing Cloud at Principal. This required learning about how different areas of the company were going to be using the tool, how the tool was structured, and transforming the data so it was in an intuitive state for non-technical marketers.
                 </p>
               </Timeline.Item>
 
@@ -108,7 +108,7 @@ class Resume extends Component {
               <Timeline.Item className='blueTimeline'>
                 <Heading primaryHeading='true' name='Principal Rebranding' date=''> </Heading>
                 <p className='SectionInformation'>
-                  Worked with the UX team on protraying our new company voice through the styling of our web properties via our style guide built on top of Bootstrap. This was a quick moving project wiht only 3.5 months for design and implementation.
+                  Worked with the UX team on portraying our new company voice through the styling of our web properties via our style guide built on top of Bootstrap. This was a quick moving project with only 3.5 months for design and implementation.
                 </p>
               </Timeline.Item>
 
@@ -167,7 +167,7 @@ class Resume extends Component {
                 <h3 className='SkillHeading'>Coding Languages</h3>
                 <ul className='Skills'>
                   <li>JavaScript</li>
-                  <li>SalesForce Marketing Cloud</li>
+                  <li>Salesforce Marketing Cloud</li>
                   <li>SQL</li>
                   <li>ReactJS</li>
                   <li>HTML/CSS/SASS</li>
