@@ -15,7 +15,7 @@ class Name extends Component {
 
     return (
       <div style={headerDiv}>
-        <img style={headerStyle} src={process.env.PUBLIC_URL + '/logoWithTitle.svg'}/>
+        <img alt='name' style={headerStyle} src={process.env.PUBLIC_URL + '/logoWithTitle.svg'}/>
       </div>
     );
   }

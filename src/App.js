@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './css/App.css';
 import Name from './components/Name';
 import Resume from './views/Resume';
@@ -27,10 +26,8 @@ class App extends Component {
     switch (this.state.view) {
       case 'AboutMe':
         return <AboutMe/>;
-        break;
       case 'Resume':
         return <Resume></Resume>;
-        break;
       default:
         return <Resume></Resume>;
 

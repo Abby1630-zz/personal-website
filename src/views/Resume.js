@@ -5,9 +5,7 @@ import '../css/Resume.css'
 
 class Resume extends Component {
   render() {
-    const timelineStyle = {
-      paddingTop: '0'
-    }
+    
     return (
       <div>
         <div>

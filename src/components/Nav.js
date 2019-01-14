@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import '../css/Name.css'
 import { Menu, Icon } from 'antd';
 
-const SubMenu = Menu.SubMenu;
-const MenuItemGroup = Menu.ItemGroup;
-
 class Nav extends Component {
   state = {
     current: 'about',
