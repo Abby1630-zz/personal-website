@@ -10,11 +10,11 @@ it('renders without crashing', () => {
   ReactDOM.unmountComponentAtNode(div);
 });
 
-it('renders without crashing', () => {
-  const wrapper = shallow(<App />);
+// it('renders without crashing', () => {
+//   const wrapper = shallow(<App />);
 
-  wrapper.setState({ view: 'AboutUs' });
-  expect(App.displayPage()).toMatchObject(AboutMe);
+//   wrapper.setState({ view: 'AboutUs' });
+//   expect(App.displayPage()).toMatchObject(AboutMe);
 
 
-});
+// });
