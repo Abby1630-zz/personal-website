@@ -185,6 +185,7 @@ class Resume extends Component {
                 <ul className='Skills'>
                   <li>Sinon</li>
                   <li>Mocha</li>
+                  <li>Jest</li>
                   <li>Enzyme</li>
                   <li>Selenium</li>
                   <li>Cucumber</li>
