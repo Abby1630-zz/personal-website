@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../css/Heading.css'
 
 class Heading extends Component {
+  
   render() {
     let nameClasses = 'Item';
     let dateClases = 'Item';

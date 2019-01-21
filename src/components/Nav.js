@@ -3,12 +3,8 @@ import '../css/Name.css'
 import { Menu, Icon } from 'antd';
 
 class Nav extends Component {
-  state = {
-    current: 'about',
-  }
 
   handleClick = (e) => {
-    console.log('click ', e);
     this.props.changeView(e.key);
   }
 

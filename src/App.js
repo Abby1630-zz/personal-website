@@ -17,9 +17,7 @@ class App extends Component {
   }
 
   changeView(newView) {
-
     this.setState({view:newView});
-
   }
 
   displayPage() {
@@ -30,7 +28,6 @@ class App extends Component {
         return <Resume></Resume>;
       default:
         return <Resume></Resume>;
-
     }
 
   }

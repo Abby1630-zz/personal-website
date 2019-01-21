@@ -11,7 +11,7 @@ class Resume extends Component {
         <div>
 
           <Divider orientation='left' className='pinkHorizontal'><h1>Work Experience</h1></Divider>
-          <p className='SectionTimeline' >
+          <div className='SectionTimeline' >
             <Timeline>
               <Timeline.Item className='purpleTimeline'>
                 <Heading primaryHeading='true' name='Principal Financial Group - Des Moines, Iowa' date='May 2011 – Present'> </Heading>
@@ -67,10 +67,10 @@ class Resume extends Component {
                 </ul>
               </Timeline.Item>
             </Timeline>
-          </p>
+          </div>
 
           <Divider orientation='left' className='purpleHorizontal'><h1>Education</h1></Divider>
-          <p className='SectionTimeline' >
+          <div className='SectionTimeline' >
             <Timeline>
               <Timeline.Item className='tealTimeline'>
                 <Heading primaryHeading='true' name='Peruwayna Spanish School - Lima, Peru' date='January 2018 – February 2018'> </Heading>
@@ -88,10 +88,10 @@ class Resume extends Component {
                 <div className='SectionInformation'>GPA: 3.21 – Major GPA: 3.30</div>
               </Timeline.Item>
             </Timeline>
-          </p>
+          </div>
 
           <Divider orientation='left' className='tealHorizontal'><h1>Major Projects</h1></Divider>
-          <p className='SectionTimeline' >
+          <div className='SectionTimeline' >
             <Timeline>
               <Timeline.Item className='blueTimeline'>
                 <Heading primaryHeading='true' name='Salesforce Marketing Cloud' date=''> </Heading>
@@ -123,10 +123,10 @@ class Resume extends Component {
               </Timeline.Item>
 
             </Timeline>
-          </p>
+          </div>
 
           <Divider orientation='left' className='blueHorizontal'><h1>Activities</h1></Divider>
-          <p className='SectionTimeline' >
+          <div className='SectionTimeline' >
             <Timeline>
               <Timeline.Item className='purpleTimeline'>
                 <Heading primaryHeading='true' name='Reboot Iowa' date='January 2016 – Present'> </Heading>
@@ -145,10 +145,10 @@ class Resume extends Component {
                 <div className='SectionInformation'>Committee Member</div>
               </Timeline.Item>
             </Timeline>
-          </p>
+          </div>
 
           <Divider orientation='left' className='pinkHorizontal'><h1>Honors & Awards</h1></Divider>
-          <p className='SectionTimeline' >
+          <div className='SectionTimeline' >
             <Timeline>
               <Timeline.Item className='tealTimeline'>
                 <Heading primaryHeading='true' name='Microsoft Imagine Cup – User Experience Challenge' date='March 2015'> </Heading>
@@ -161,7 +161,7 @@ class Resume extends Component {
                 <Heading primaryHeading='true' name='Drake University Dean’s List' date='Fall 2009, Fall 2010, Spring 2011'> </Heading>
               </Timeline.Item>
             </Timeline>
-          </p>
+          </div>
 
           <Divider orientation='left' className='purpleHorizontal'><h1>Skills</h1></Divider>
           <div className='SectionTimeline'>
