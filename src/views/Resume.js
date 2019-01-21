@@ -19,7 +19,7 @@ class Resume extends Component {
                 <Heading primaryHeading='false' name='Software Developer' date='April 2016 – Present'> </Heading>
                 <ul>
                   <li className='SectionInformation'>Working collaboratively in a SAFe SCRUM team</li>
-                  <li className='SectionInformation'>Developing and improving applications with Drupal, CSS, JavaScript, jQuery, Java</li>
+                  <li className='SectionInformation'>Developing and improving applications with JavaScript, SQL, Drupal, CSS, jQuery, Java</li>
                   <li className='SectionInformation'>Implementing vendor products like Salesforce Marketing Cloud</li>
                   <li className='SectionInformation'>Supporting the corporate marketing department to enhance user experience for our customers and smarter marketing solutions</li>
                 </ul>
