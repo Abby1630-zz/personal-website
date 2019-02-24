@@ -22,7 +22,7 @@ class Resume extends Component {
               <Timeline.Item className='purpleTimeline'>
                 <Heading primaryHeading='true' name='Principal Financial Group - Des Moines, Iowa' date='May 2011 – February 2019'> </Heading>
 
-                <Heading primaryHeading='false' name='Software Developer' date='April 2016 – Present'> </Heading>
+                <Heading primaryHeading='false' name='Software Developer' date='April 2016 – February 2019'> </Heading>
                 <ul>
                   <li className='SectionInformation'>Worked collaboratively in a SAFe SCRUM team</li>
                   <li className='SectionInformation'>Developed and improved applications with JavaScript, SQL, Drupal, CSS, jQuery, Java</li>
