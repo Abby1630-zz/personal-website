@@ -14,14 +14,20 @@ class Resume extends Component {
           <div className='SectionTimeline' >
             <Timeline>
               <Timeline.Item className='purpleTimeline'>
-                <Heading primaryHeading='true' name='Principal Financial Group - Des Moines, Iowa' date='May 2011 – Present'> </Heading>
+                <Heading primaryHeading='true' name='RobustWealth - Des Moines, Iowa' date='February 2019 – Present'> </Heading>
+
+                <Heading primaryHeading='false' name='Senior Developer' date=''> </Heading>
+
+              </Timeline.Item>
+              <Timeline.Item className='purpleTimeline'>
+                <Heading primaryHeading='true' name='Principal Financial Group - Des Moines, Iowa' date='May 2011 – February 2019'> </Heading>
 
                 <Heading primaryHeading='false' name='Software Developer' date='April 2016 – Present'> </Heading>
                 <ul>
-                  <li className='SectionInformation'>Working collaboratively in a SAFe SCRUM team</li>
-                  <li className='SectionInformation'>Developing and improving applications with JavaScript, SQL, Drupal, CSS, jQuery, Java</li>
-                  <li className='SectionInformation'>Implementing vendor products like Salesforce Marketing Cloud</li>
-                  <li className='SectionInformation'>Supporting the corporate marketing department to enhance user experience for our customers and smarter marketing solutions</li>
+                  <li className='SectionInformation'>Worked collaboratively in a SAFe SCRUM team</li>
+                  <li className='SectionInformation'>Developed and improved applications with JavaScript, SQL, Drupal, CSS, jQuery, Java</li>
+                  <li className='SectionInformation'>Implemented vendor products like Salesforce Marketing Cloud</li>
+                  <li className='SectionInformation'>Supported the corporate marketing department to enhance user experience for our customers and smarter marketing solutions</li>
                 </ul>
 
                 <Heading primaryHeading='false' name='Quality Control Analyst' date='September 2015 – April 2016'> </Heading>
@@ -133,11 +139,11 @@ class Resume extends Component {
                 <div className='SectionInformation'>Board Member</div>
               </Timeline.Item>
               <Timeline.Item className='purpleTimeline'>
-                <Heading primaryHeading='true' name='Principal Financial Group Internship Program' date='September 2015 – Present'> </Heading>
+                <Heading primaryHeading='true' name='Principal Financial Group Internship Program' date='September 2015 – February 2019'> </Heading>
                 <div className='SectionInformation'>Interviewer</div>
               </Timeline.Item>
               <Timeline.Item className='purpleTimeline'>
-                <Heading primaryHeading='true' name='Taking the Road Less Traveled Conference' date='May 2011 – Present'> </Heading>
+                <Heading primaryHeading='true' name='Taking the Road Less Traveled Conference' date='May 2011 – February 2019'> </Heading>
                 <div className='SectionInformation'>Presenter</div>
               </Timeline.Item>
               <Timeline.Item className='purpleTimeline'>
