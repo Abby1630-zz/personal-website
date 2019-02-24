@@ -13,7 +13,7 @@ class AboutMe extends Component {
           <p>Hello!</p>
 
           <p>
-            I'm currently rewriting my webpage so I apologize for the disjointedness.
+            I'm currently rewriting my webpage so I apologize for the limited information.
           </p>
 
           <p>
